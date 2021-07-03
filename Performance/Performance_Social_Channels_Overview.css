@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+   width:90%;
+ height:4.5rem;
+ background-color:blueviolet;
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ float:right;
+}
+
+.sidebar{
+   width:10%;
+   height:100vh;
+   background-color:blueviolet;
+}
+
+.sidebar li{
+   color:white;
+   padding:10px;
+   border-bottom: 1px solid white;
+   text-align:left;
+}
+
+.sidebar li a{
+   text-decoration: none;
+   color:white;
+   cursor:pointer;
+}
+
+.container{
+    width: 90%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    float: right;
+}
+
+.heading{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+table{
+    width:600px;
+    box-shadow: -1px 12px 12px -6px;
+    background-color: rgba(red, green, blue, alpha);
+}
+table,td,th{
+    padding:20px;
+    border:1px solid lightgray;
+    border-collapse:collapse;
+    text-align: center;
+    cursor: pointer;
+}
+td{
+    font-size: 18px;
+}
+th{
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+     }
+     tr:nth-child(even){
+         background-color: lightblue;
+     }
+     tr:nth-child(even):hover{
+         background-color: dodgerblue;
+         color:white;
+        
+     }
+
+#channel{
+    color: white;
+    
+}
