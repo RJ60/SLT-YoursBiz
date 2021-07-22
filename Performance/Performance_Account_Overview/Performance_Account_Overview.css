@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .header{
+    width:90%;
+  height:4.5rem;
+  background-color:blueviolet;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  float:right;
+ }
+ .sidebar{
+    width:10%;
+    height:100vh;
+    background-color:blueviolet;
+ }
+ .sidebar li{
+    color:white;
+    padding:10px;
+    border-bottom: 1px solid white;
+    text-align:left;
+ }
+ .sidebar li a{
+    text-decoration: none;
+    color:white;
+    cursor:pointer;
+}
+
+.container{
+    width: 90%;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Account_Overview,
+#Post_View{
+    background-color: green;
+    border-radius: 2px;
+    border: 0px;
+    margin: 0;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.row{
+    margin: 0%;
+    margin-bottom: 0%;
+}
+.dodgerblue{
+    background-color: dodgerblue;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.dodgerblue-text{
+    color: dodgerblue;
+}
+.green-text{
+    color: forestgreen;
+}
+.reddish-text{
+    color: rgb(243, 234, 234);
+}
+.card{
+    height: 200px;
+    width: 100%;
+    margin: 0%;
+}
+
+#Post_Published,
+#Total_likes,
+#Unlikes,
+#Follower_count,
+#Total_Reach,
+#Organic_Reach,
+#Paid_Reach,
+#Impressions{
+    
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    font-size: 22px;
+}
+
+#Total_likes,
+#Unlikes,
+#Follower_count{
+    border-bottom-left-radius: 0px;
+}
+
+#Post_Published{
+    font-size: 24px;
+}
+.card .card-title{
+    float: center;
+    font-size: 25px;
+}
+
+.box{
+    border: 1px solid green;
+    margin: 2px;
+    padding: 2px;
+    float: center;
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+}
+
+#Total_Reach-graph{
+    position: relative;
+    /* top: 250px; */
+    width: 50%;
+    height: 60%;
+}
+
+
+
+.morris-hover {
+    position:absolute;
+    z-index:1000;
+  }
+  
+  .morris-hover.morris-default-style {     border-radius:10px;
+    padding:6px;
+    color:#666;
+    background:rgba(255, 255, 255, 0.8);
+    border:solid 2px rgba(230, 230, 230, 0.8);
+    font-family:sans-serif;
+    font-size:12px;
+    text-align:center;
+  }
+  
+  .morris-hover.morris-default-style .morris-hover-row-label {
+    font-weight:bold;
+    margin:0.25em 0;
+  }
+  
+  .morris-hover.morris-default-style .morris-hover-point {
+    white-space:nowrap;
+    margin:0.1em 0;
+  }
+  
+  svg { width: 100%; }
